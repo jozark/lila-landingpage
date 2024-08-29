@@ -28,7 +28,7 @@ export default function HeroSection() {
               <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Discover Your Desires</div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Lila: The App for Deeper Connections</h2>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Lila is a revolutionary mobile app that helps you and your partner explore each other's desires, build
+                Lila is a revolutionary mobile app that helps you and your partner explore each others desires, build
                 deeper connections, and cultivate more fulfilling relationships.
               </p>
             </div>
