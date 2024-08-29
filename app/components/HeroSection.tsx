@@ -22,7 +22,7 @@ export default function HeroSection() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
-        <div className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
+        <div className="grid items-center gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_450px]">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
               <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Discover Your Desires</div>
@@ -63,19 +63,19 @@ export default function HeroSection() {
               </Link>
             </div>
           </div>
-          <div className="relative">
+          <div className="relative flex justify-center items-center h-[500px]">
             <Card
-              className={`mx-auto w-full max-w-sm transition-all duration-500 ${
+              className={`absolute w-full max-w-sm transition-all duration-500 ${
                 activeCard === 0 ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
               }`}
             >
               <CardContent className="p-0">
                 <Image
-                  src="/placeholder.svg"
-                  alt="App screenshot"
-                  width={300}
-                  height={600}
-                  className="w-full h-auto"
+                  src="/bed_placeholder.png"
+                  alt="Bed placeholder"
+                  width={400}
+                  height={300}
+                  className="w-full h-[300px] object-cover"
                 />
                 <div className="p-4 space-y-2">
                   <CardTitle>Explore Your Desires</CardTitle>
@@ -95,17 +95,17 @@ export default function HeroSection() {
               </CardContent>
             </Card>
             <Card
-              className={`mx-auto w-full max-w-sm absolute top-0 left-0 transition-all duration-500 ${
+              className={`absolute w-full max-w-sm transition-all duration-500 ${
                 activeCard === 1 ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
               }`}
             >
               <CardContent className="p-0">
                 <Image
-                  src="/placeholder.svg"
-                  alt="App store"
-                  width={120}
-                  height={40}
-                  className="h-10 w-auto"
+                  src="/bed_placeholder.png"
+                  alt="Bed placeholder"
+                  width={400}
+                  height={300}
+                  className="w-full h-[300px] object-cover"
                 />
                 <div className="p-4 space-y-2">
                   <CardTitle>Explore Your Desires</CardTitle>

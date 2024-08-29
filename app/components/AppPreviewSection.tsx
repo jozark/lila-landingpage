@@ -12,7 +12,7 @@ export default function AppPreviewSection() {
           <div className="flex justify-center">
             <div className="relative w-[290px] h-[580px] bg-black rounded-[60px] shadow-xl overflow-hidden border-[14px] border-black">
               <Image
-                src="/placeholder.svg"
+                src="/Connection_open.png"
                 alt="Lila App Screenshot"
                 width={262}
                 height={552}
