@@ -10,6 +10,7 @@ import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardTitle, CardDescription } from "@/components/ui/card"
+import Image from 'next/image'
 
 export default function HeroSection() {
   const [activeCard, setActiveCard] = useState(0)
@@ -69,12 +70,12 @@ export default function HeroSection() {
               }`}
             >
               <CardContent className="p-0">
-                <img
+                <Image
                   src="/placeholder.svg"
-                  width="500"
-                  height="300"
-                  alt="Hero"
-                  className="aspect-video object-cover rounded-t-xl"
+                  alt="App screenshot"
+                  width={300}
+                  height={600}
+                  className="w-full h-auto"
                 />
                 <div className="p-4 space-y-2">
                   <CardTitle>Explore Your Desires</CardTitle>
@@ -99,12 +100,12 @@ export default function HeroSection() {
               }`}
             >
               <CardContent className="p-0">
-                <img
+                <Image
                   src="/placeholder.svg"
-                  width="500"
-                  height="300"
-                  alt="Hero"
-                  className="aspect-video object-cover rounded-t-xl"
+                  alt="App store"
+                  width={120}
+                  height={40}
+                  className="h-10 w-auto"
                 />
                 <div className="p-4 space-y-2">
                   <CardTitle>Explore Your Desires</CardTitle>
